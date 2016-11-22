@@ -38,6 +38,11 @@ ul {
 	padding-bottom: 2rem;
 
 }
+
+p {
+	font-style: italic;
+	font-size: small;
+}
 .footer {
 	width: 650px;
 	margin: 0 auto;
