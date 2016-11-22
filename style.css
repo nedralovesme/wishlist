@@ -21,6 +21,10 @@ a {
 	color: #ce0c3d;
 }
 
+a:hover {
+	color: #000;
+}
+
 
 ul {
 	/*display: inline-block;*/
