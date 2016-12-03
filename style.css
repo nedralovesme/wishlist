@@ -3,6 +3,14 @@ html {
 	color: #272727;
 }
 
+body {
+    background: #ce0c3d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eee, #ce0c3d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eee, #ce0c3d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eee, #ce0c3d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eee, #ce0c3d); /* Standard syntax */
+}
+
 a {
 	color: #ce0c3d;
 }
