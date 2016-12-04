@@ -4,11 +4,12 @@ html {
 }
 
 body {
-    background: #ce0c3d; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#eee, #ce0c3d); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#eee, #ce0c3d); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#eee, #ce0c3d); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#eee, #ce0c3d); /* Standard syntax */
+    background: #ffffff; /*
+    background: -webkit-linear-gradient(#eee, #ce0c3d);
+    background: -o-linear-gradient(#eee, #ce0c3d);
+    background: -moz-linear-gradient(#eee, #ce0c3d);
+    background: linear-gradient(#eee, #ce0c3d);*/
+
 }
 
 a {
@@ -20,14 +21,20 @@ a:hover {
 }
 
 .nav {
-  background-color: #fffafa;
-
 }
 
 .nav ul {
-  list-style: none;
-  text-align: center;
-  margin: 0;
+  	list-style: none;
+  	text-align: center;
+  	margin: 0;
+	background: #fffafa;
+ 	background: -webkit-linear-gradient(left, #fffafa, #ce0c3d);
+    background: -o-linear-gradient(right, #fffafa, #ce0c3d);
+    background: -moz-linear-gradient(right, #fffafa, #ce0c3d);
+    background: linear-gradient(to right, #fffafa, #ce0c3d);
+
+
+
 }
 .nav li {
   font-family: 'Oswald', sans-serif;
