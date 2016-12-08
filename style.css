@@ -120,6 +120,19 @@ p {
 	font-style: italic;
 	font-size: small;
 }
+
+#got {
+	text-decoration: line-through;
+	font-weight: lighter;
+	font-style: italic;
+}
+
+#got 
+	img {
+/*		display: none;
+*/		visibility: hidden;
+	}
+	
 .footer {
 	width: 650px;
 	margin: 0 auto;
